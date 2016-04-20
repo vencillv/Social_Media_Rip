@@ -1,0 +1,64 @@
+<!-- Vinny Vencill Networking Lab 4 -->
+
+<!DOCTYPE html>
+<HTML>
+<head>
+<meta charset=utf8>
+<title>Foo</title>
+<link rel='stylesheet' href='index.css'>
+</head>
+
+<BODY onload="banana(5000)"> 
+<script type="text/javascript" src="xhr.js"></script>
+   
+<!-- the header -->
+<div class="header">
+    <img src='logo.png'>
+    Welcome to MONKEY! 
+    <img src='logo.png'>
+</div>
+
+</br>
+</br>
+
+<table>
+<td>
+<!--the forms -->
+<%
+monkey.displayCookie(self)
+%>
+<td>
+<!-- the content area -->    
+<div>
+    <div class='description'>
+        MONKEY is a unique fast-paced, smooth, hipster service
+        just like Twitter&reg; except that Twitter works, and this
+        service doesn't.
+    </div>
+</table>       
+</br>
+    <div class='feed'>
+<%
+monkey.showOokInput(self)
+%>
+</br>
+</br>
+<div id='ookFeed'>
+
+</div>
+</div>
+
+</div>
+    
+<div class='parent'>
+<div class='footer'>
+        MONKEY is &copy;
+<%
+self.remote.write( str(monkey.time.localtime().tm_year))
+%> 
+MONKEY. All rights reserved. &#x1f639
+</div>
+</div>
+    
+</BODY>
+</HTML>

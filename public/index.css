@@ -1,0 +1,58 @@
+body {
+    background-image: url("monkeyBG.jpg");
+    background-repeat: repeat-x;
+    background-position: right bottom;
+    background-attachment: fixed;
+    font-family: Buxton Sketch;
+}    
+
+div.header{
+	text-align: center;
+	font-size: 40pt;
+	font-family: Showcard Gothic;
+	text-decoration: underline;
+	color: Brown;
+}
+
+form.login{
+	width: 300px;
+	font-size: 18pt;
+	text-align: right;
+}
+
+form.signup{
+	width: 300px;
+	font-size: 18pt;
+	text-align: right;
+}
+
+form.logout{
+	width: 300px;
+	font-size: 18pt;
+	text-align: center;
+}
+
+div.description{
+	position: relative;
+	margin-left: 20%;
+	margin-right: 50px;
+	font-size: 30pt;
+}
+
+div.feed{
+	margin-left: 60px;
+	margin-right: 30%;
+	margin-bottom: 30px;
+	font-size: 14pt;
+}
+
+div.parent{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+div.footer{
+	width: 90%;
+	text-align: right;
+}

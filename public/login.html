@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+    <meta charset='utf8'>
+    <meta http-equiv='refresh' content='0;/index.html'>
+</head>
+<body>
+
+<%
+name=self.fs.getfirst('username',"")
+passw=self.fs.getfirst("password","")
+self.remote.write( "Attempting to login with name="+name+" and password="+passw)
+monkey.setCookieLogIn(self,name,passw)
+%>
+
+
+</body>
+</html>
